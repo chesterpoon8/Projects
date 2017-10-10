@@ -4,72 +4,15 @@ import time
 from selenium import webdriver
 
 #PGY-4
-cloydt = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2867&Lo=nyuem&Jd=7532'
-gallaghert = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2868&Lo=nyuem&Jd=7532'
-guineya = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2869&Lo=nyuem&Jd=7532'
-kauferm = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2870&Lo=nyuem&Jd=7532'
-linb = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2871&Lo=nyuem&Jd=7532'
-mccartym = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2872&Lo=nyuem&Jd=7532'
-mcdonalds = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2873&Lo=nyuem&Jd=7532'
-mikhlym = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2874&Lo=nyuem&Jd=7532'
-mordela = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2875&Lo=nyuem&Jd=7532'
-ortegoa = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2876&Lo=nyuem&Jd=7532'
-pacer = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2877&Lo=nyuem&Jd=7532'
-parisj = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2878&Lo=nyuem&Jd=7532'
-shamoonm = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2879&Lo=nyuem&Jd=7532'
-skeltone = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2880&Lo=nyuem&Jd=7532'
-wug = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.2881&Lo=nyuem&Jd=7532'
+#list of links assigned to variables removed for security concerns
 #PGY-3
-choih = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3023&Lo=nyuem&Jd=7532'
-disalvop = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3024&Lo=nyuem&Jd=7532'
-dibbleb = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3025&Lo=nyuem&Jd=7532'
-gorynskim = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3026&Lo=nyuem&Jd=7532'
-hartl = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3027&Lo=nyuem&Jd=7532'
-levinj = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3028&Lo=nyuem&Jd=7532'
-mcdonaldl = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3029&Lo=nyuem&Jd=7532'
-mcfarlandd = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3030&Lo=nyuem&Jd=7532'
-mohamedh = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3031&Lo=nyuem&Jd=7532'
-muckeye = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3032&Lo=nyuem&Jd=7532'
-rajeevs = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3033&Lo=nyuem&Jd=7532'
-storchb = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3034&Lo=nyuem&Jd=7532'
-suttonramseyd = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3035&Lo=nyuem&Jd=7532'
-villegasl = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3036&Lo=nyuem&Jd=7532'
-whiter = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3203&Lo=nyuem&Jd=7532'
+#list of links assigned to variables removed for security concerns
 #PGY-2
-aylyarovi = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3216&Lo=nyuem&Jd=7532'
-bennettj = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3217&Lo=nyuem&Jd=7532'
-bergerm = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3218&Lo=nyuem&Jd=7532'
-betancourte = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3219&Lo=nyuem&Jd=7532'
-coplinm = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3220&Lo=nyuem&Jd=7532'
-farmerc = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3221&Lo=nyuem&Jd=7532'
-ferraiolif = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3222&Lo=nyuem&Jd=7532'
-millera = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3223&Lo=nyuem&Jd=7532'
-mohans = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3224&Lo=nyuem&Jd=7532'
-nesheiwatl = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3225&Lo=nyuem&Jd=7532'
-ngk = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3226&Lo=nyuem&Jd=7532'
-pasternack = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3227&Lo=nyuem&Jd=7532'
-robakm = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3228&Lo=nyuem&Jd=7532'
-shapiros = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3229&Lo=nyuem&Jd=7532'
-unkse = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3230&Lo=nyuem&Jd=7532'
+#list of links assigned to variables removed for security concerns
 #PGY-1
-aulde = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3413&Lo=nyuem&Jd=7532'
-castrom = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3414&Lo=nyuem&Jd=7532'
-ciardielloa = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3415&Lo=nyuem&Jd=7532'
-diazm = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3416&Lo=nyuem&Jd=7532'
-dimicelie = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3417&Lo=nyuem&Jd=7532'
-doobayk = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3418&Lo=nyuem&Jd=7532'
-hughesa = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3419&Lo=nyuem&Jd=7532'
-iheagwarao = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3420&Lo=nyuem&Jd=7532'
-iscoem = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3421&Lo=nyuem&Jd=7532'
-ramadanl = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3422&Lo=nyuem&Jd=7532'
-romeom = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3423&Lo=nyuem&Jd=7532'
-snavelyc = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3424&Lo=nyuem&Jd=7532'
-terentievv = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3425&Lo=nyuem&Jd=7532'
-tsaoj = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3426&Lo=nyuem&Jd=7532'
-weberl = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3427&Lo=nyuem&Jd=7532'
-worthingj = 'http://www.amion.com/cgi-bin/ocs?Vcal=7.3428&Lo=nyuem&Jd=7532'
+#list of links assigned to variables removed for security concerns
 #Attending calendars
-attending_cal = 'http://www.shiftadmin.com/schedule_ical_group.php?cd=AODnD8D82hg0QfAMLYDU2SDheCqhdie4U0%2FpnaWKEP4%3D&gfs=f1,f2,f3,f5,f6,f7,f9,f27,g3,f11,f12,f13,f16,f20'
+#list of links assigned to variables removed for security concerns
 
 calendars = [
             #PGY-4
